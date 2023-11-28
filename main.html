@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Places from the world</title>
+</head>
+
+<body style =" background:  rgb(235, 217, 221)">
+  <link rel="stylesheet" href="main.css">
+<h2 style="text-align:center">places around the world</h2>
+
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="https://www.terra-guatemala.com/wp-content/uploads/atitlan-1280x800.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="https://www.terra-guatemala.com/wp-content/uploads/tikal-min-1280x800.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2022/01/31/178837.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="https://i.natgeofe.com/n/177faece-da85-4458-ad91-3b83a89af602/92754_4x3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="https://travelunicorns.com/media/posts/137/sammy-wong-QHH3WH1ZBsk-unsplash.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="https://c4.wallpaperflare.com/wallpaper/724/198/515/peter-rock-petra-desert-wallpaper-preview.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+    <label for="locationInput">Enter Location Title: </label>
+    <input id="in" type="text" placeholder="Enter the place">
+    <button id="bt" onclick="checkTitle()">click</button>
+<p id="result"></p>
+
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo " src="https://www.terra-guatemala.com/wp-content/uploads/atitlan-1280x800.jpg" style="width:100%" onclick="currentSlide(1)" >
+    </div>
+    <div class="column">
+      <img class="demo" src="https://www.terra-guatemala.com/wp-content/uploads/tikal-min-1280x800.jpeg" style="width:100%" onclick="currentSlide(2)" >
+    </div>
+    <div class="column">
+      <img class="demo " src="https://idsb.tmgrup.com.tr/ly/uploads/images/2022/01/31/178837.jpeg" style="width:100%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo " src="https://i.natgeofe.com/n/177faece-da85-4458-ad91-3b83a89af602/92754_4x3.jpg" style="width:100%" onclick="currentSlide(4)" >
+    </div>
+    <div class="column">
+      <img class="demo " src="https://travelunicorns.com/media/posts/137/sammy-wong-QHH3WH1ZBsk-unsplash.jpg" style="width:100%" onclick="currentSlide(5)" >
+    </div>
+    <div class="column">
+      <img class="demo " src="https://c4.wallpaperflare.com/wallpaper/724/198/515/peter-rock-petra-desert-wallpaper-preview.jpg" style="width:50%" onclick="currentSlide(6)" >
+    </div>
+  </div>
+</div>
+
+<div>
+
+  <div>
+    <h1>Pacaya Volcano</h1>
+    <p>The Pacaya rises about 30 kilometers south of the capital of Guatemala and is relatively easily accessible.
+       It is a subduction zone volcano that produces a basaltic to intermediate melt. In addition to basalt,
+       there are dacite (lava domes) and andesitic basalts
+    <a target="_blank" href="https://www.vulkane.net/en/volcanoes/pacaya/pacaya.html">"see more about Pacaya Volcano"</a> link.</p>
+  </div>
+   <h1>Tikal National Park</h1>
+  <p>In the heart of the jungle, surrounded by lush vegetation, lies one of the major sites of Mayan civilization, 
+    inhabited from the 6th century B.C. to the 10th century A.D. The ceremonial centre contains superb temples and palaces,
+     and public squares accessed by means of ramps. 
+    Remains of dwellings are scattered throughout the surrounding countryside.
+ <a target="_blank" href="https://whc.unesco.org/en/list/64/">"see more about Tikal"</a> link.</p>
+<div>
+  <h1>The Aurora Borealis</h1>
+  <p>Seeing the northern lights is probably the lifelong dream of many people, 
+    with wintry northern Finland a good place to try and catch these dashes
+     of green in the night sky..
+ <a target="_blank" href="https://www.dailysabah.com/life/travel/the-aurora-borealis-why-you-should-visit-northern-finland-in-winter">"see more about The Aurora Borealis"</a> link.</p>
+</div>
+<div>
+  <h1>The Victoria Falls</h1>
+  <p>The Victoria Falls presents a spectacular sight of awe-inspiring beauty and grandeur on the Zambezi River, 
+    forming a natural border between Zambia and Zimbabwe. It was described by the Kololo tribe living in the area as
+     ‘Mosi-oa-Tunya’ – ‘The Smoke that Thunders’ for the immense spray and incredible noise caused by the rushing water.
+      Victoria Falls is now also known as the
+     greatest curtain of falling water in the world when its width and height are combined.
+ <a target="_blank" href="https://www.zambiatourism.com/destinations/waterfalls/victoria-falls/">"see more about The Victoria Falls"</a> link.</p>
+</div>
+<div>
+  <h1>Petra in jorden</h1>
+  <p>
+    The "Lost City" still has secrets to reveal: Thousands of years ago, the now-abandoned city of Petra was thriving.
+
+BYMATI MILSTEIN
+ <a target="_blank" href="https://www.nationalgeographic.com/history/article/lost-city-petra">"see more about Petra "</a> link.</p>
+
+</div>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
